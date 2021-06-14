@@ -1,7 +1,7 @@
 //const { noExtendLeft } = require('sequelize/types/lib/operators');
 //const { restore } = require('../models/Proyectos');
 const Proyectos = require('../models/Proyectos');
-const Tareas = require('../models/tareas');
+const Tareas = require('../models/Tareas');
 
 exports.agregarTarea = async (req, res, next) => {
     // Obtener el proyecto actual
